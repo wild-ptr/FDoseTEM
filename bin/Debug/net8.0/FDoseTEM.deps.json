@@ -1,0 +1,176 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FDoseTEM/1.0.0": {
+        "dependencies": {
+          "FSharp.Core": "8.0.200",
+          "FSharp.Stats": "0.5.0"
+        },
+        "runtime": {
+          "FDoseTEM.dll": {}
+        }
+      },
+      "FSharp.Core/8.0.200": {
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.2.24.6203"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "FSharp.Stats/0.5.0": {
+        "dependencies": {
+          "FSharp.Core": "8.0.200",
+          "FSharpAux": "2.0.0",
+          "FSharpAux.Core": "2.0.0",
+          "FSharpAux.IO": "2.0.0",
+          "OptimizedPriorityQueue": "5.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharp.Stats.dll": {
+            "assemblyVersion": "0.5.0.0",
+            "fileVersion": "0.5.0.0"
+          }
+        }
+      },
+      "FSharpAux/2.0.0": {
+        "dependencies": {
+          "FSharp.Core": "8.0.200",
+          "FSharpAux.Core": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharpAux.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "FSharpAux.Core/2.0.0": {
+        "dependencies": {
+          "FSharp.Core": "8.0.200"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharpAux.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "FSharpAux.IO/2.0.0": {
+        "dependencies": {
+          "FSharp.Core": "8.0.200",
+          "FSharpAux": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharpAux.IO.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OptimizedPriorityQueue/5.1.0": {
+        "runtime": {
+          "lib/netstandard1.0/PriorityQueue.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FDoseTEM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FSharp.Core/8.0.200": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qnxoF3Fu0HzfOeYdrwmQOsLP1v+OtOMSIYkNVUwf6nGqWzL03Hh4r6VFCvCb54jlsgtt3WADVYkKkrgdeY5kiQ==",
+      "path": "fsharp.core/8.0.200",
+      "hashPath": "fsharp.core.8.0.200.nupkg.sha512"
+    },
+    "FSharp.Stats/0.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ya1Cxtcd+vWGh40fFa+M1SOgVFTAFmslpADJ1kXR/OhlAw4c4XOrrvuo6Zj3rKMfZx/OIwTLiqsmHoA6oTgaZA==",
+      "path": "fsharp.stats/0.5.0",
+      "hashPath": "fsharp.stats.0.5.0.nupkg.sha512"
+    },
+    "FSharpAux/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2gFFDzIVheYO/glZmzyRaol/P60SWPzH7zM7QFZzfkR+rB3F0IdyVQpo3h9eOdsnOVTIYJhiywOaBAtsW0ZFzA==",
+      "path": "fsharpaux/2.0.0",
+      "hashPath": "fsharpaux.2.0.0.nupkg.sha512"
+    },
+    "FSharpAux.Core/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ltsM7H9SsfnvjcWXm5TcoyBysatHpwR8krCfyXdWriMT0DBxZxji3bhxNOcm4HeQXD4slL2TrJgULXyiCtJBRQ==",
+      "path": "fsharpaux.core/2.0.0",
+      "hashPath": "fsharpaux.core.2.0.0.nupkg.sha512"
+    },
+    "FSharpAux.IO/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1E/vV4FGaKJyYHg3n8cCi0LjhceP02V/I8MYuxwPhnH4MrbTe79dYGprgRmPybw14MqkMmIIcajaPDW0GAFxjA==",
+      "path": "fsharpaux.io/2.0.0",
+      "hashPath": "fsharpaux.io.2.0.0.nupkg.sha512"
+    },
+    "OptimizedPriorityQueue/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0AnX6kAs0GiLrSqrHKe5mpQhJSHTmXeqLNucV2CxGATP/I9UzLMc1N4MtS/z8qB6mcgX61OjHdY3YbOmETGs+A==",
+      "path": "optimizedpriorityqueue/5.1.0",
+      "hashPath": "optimizedpriorityqueue.5.1.0.nupkg.sha512"
+    }
+  }
+}

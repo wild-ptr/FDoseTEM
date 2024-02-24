@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "m0sVLIH4YwNUzf5KCWHbSxySyZJkoW4eALXY1m1fPT22G8dQXbOQ76ny+r3Gkxh0Ynv1FUFJ7/TZg9tq+9dWCg==",
+  "success": true,
+  "projectFilePath": "/Users/ext.shajduk/dev/FDoseTEM/FDoseTEM.fsproj",
+  "expectedPackageFiles": [
+    "/Users/ext.shajduk/.nuget/packages/fsharp.core/8.0.200/fsharp.core.8.0.200.nupkg.sha512",
+    "/Users/ext.shajduk/.nuget/packages/fsharp.stats/0.5.0/fsharp.stats.0.5.0.nupkg.sha512",
+    "/Users/ext.shajduk/.nuget/packages/fsharpaux/2.0.0/fsharpaux.2.0.0.nupkg.sha512",
+    "/Users/ext.shajduk/.nuget/packages/fsharpaux.core/2.0.0/fsharpaux.core.2.0.0.nupkg.sha512",
+    "/Users/ext.shajduk/.nuget/packages/fsharpaux.io/2.0.0/fsharpaux.io.2.0.0.nupkg.sha512",
+    "/Users/ext.shajduk/.nuget/packages/microsoft.win32.systemevents/8.0.0/microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "/Users/ext.shajduk/.nuget/packages/optimizedpriorityqueue/5.1.0/optimizedpriorityqueue.5.1.0.nupkg.sha512",
+    "/Users/ext.shajduk/.nuget/packages/system.drawing.common/8.0.2/system.drawing.common.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

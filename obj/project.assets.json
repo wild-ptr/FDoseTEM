@@ -1,0 +1,508 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "FSharp.Core/8.0.200": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "FSharp.Stats/0.5.0": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "6.0.7",
+          "FSharpAux": "2.0.0",
+          "FSharpAux.Core": "2.0.0",
+          "FSharpAux.IO": "2.0.0",
+          "OptimizedPriorityQueue": "5.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FSharp.Stats.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharp.Stats.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "FSharpAux/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "6.0.7",
+          "FSharpAux.Core": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FSharpAux.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharpAux.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "FSharpAux.Core/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "6.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/FSharpAux.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharpAux.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "FSharpAux.IO/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "6.0.7",
+          "FSharpAux": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FSharpAux.IO.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharpAux.IO.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "OptimizedPriorityQueue/5.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/PriorityQueue.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.0/PriorityQueue.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FSharp.Core/8.0.200": {
+      "sha512": "qnxoF3Fu0HzfOeYdrwmQOsLP1v+OtOMSIYkNVUwf6nGqWzL03Hh4r6VFCvCb54jlsgtt3WADVYkKkrgdeY5kiQ==",
+      "type": "package",
+      "path": "fsharp.core/8.0.200",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "fsharp.core.8.0.200.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/FSharp.Core.dll",
+        "lib/netstandard2.1/FSharp.Core.xml",
+        "lib/netstandard2.1/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "FSharp.Stats/0.5.0": {
+      "sha512": "Ya1Cxtcd+vWGh40fFa+M1SOgVFTAFmslpADJ1kXR/OhlAw4c4XOrrvuo6Zj3rKMfZx/OIwTLiqsmHoA6oTgaZA==",
+      "type": "package",
+      "path": "fsharp.stats/0.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fsharp.stats.0.5.0.nupkg.sha512",
+        "fsharp.stats.nuspec",
+        "lib/netstandard2.0/FSharp.Stats.dll",
+        "lib/netstandard2.0/FSharp.Stats.pdb",
+        "lib/netstandard2.0/FSharp.Stats.xml",
+        "logo.png",
+        "netlib_LAPACK/libblas.dll",
+        "netlib_LAPACK/libgcc_s_seh-1.dll",
+        "netlib_LAPACK/libgfortran-4.dll",
+        "netlib_LAPACK/liblapack.dll",
+        "netlib_LAPACK/libquadmath-0.dll",
+        "netlib_LAPACK/libwinpthread-1.dll"
+      ]
+    },
+    "FSharpAux/2.0.0": {
+      "sha512": "2gFFDzIVheYO/glZmzyRaol/P60SWPzH7zM7QFZzfkR+rB3F0IdyVQpo3h9eOdsnOVTIYJhiywOaBAtsW0ZFzA==",
+      "type": "package",
+      "path": "fsharpaux/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fsharpaux.2.0.0.nupkg.sha512",
+        "fsharpaux.nuspec",
+        "lib/netstandard2.0/FSharpAux.dll",
+        "lib/netstandard2.0/FSharpAux.pdb",
+        "lib/netstandard2.0/FSharpAux.xml"
+      ]
+    },
+    "FSharpAux.Core/2.0.0": {
+      "sha512": "ltsM7H9SsfnvjcWXm5TcoyBysatHpwR8krCfyXdWriMT0DBxZxji3bhxNOcm4HeQXD4slL2TrJgULXyiCtJBRQ==",
+      "type": "package",
+      "path": "fsharpaux.core/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fable/AdjacencyGraph.fs",
+        "fable/Array.fs",
+        "fable/ArrayDivvy.fs",
+        "fable/AssemblyInfo.fs",
+        "fable/BidirectionalDictionary.fs",
+        "fable/Colors.fs",
+        "fable/DateTime.fs",
+        "fable/Dict.fs",
+        "fable/Dictionary.fs",
+        "fable/FSharpAux.Core.fsproj",
+        "fable/Guid.fs",
+        "fable/Hex.fs",
+        "fable/Interop.fs",
+        "fable/JaggedArray.fs",
+        "fable/KdTree.fs",
+        "fable/Library.fs",
+        "fable/List.fs",
+        "fable/Map.fs",
+        "fable/Math.fs",
+        "fable/MultiMap.fs",
+        "fable/Regex.fs",
+        "fable/ResizeArray.fs",
+        "fable/Seq.fs",
+        "fable/Set.fs",
+        "fable/String.fs",
+        "fable/Tree.fs",
+        "fable/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.fs",
+        "fable/obj/Debug/netstandard2.0/FSharpAux.Core.AssemblyInfo.fs",
+        "fable/obj/Release/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.fs",
+        "fable/obj/Release/netstandard2.0/FSharpAux.Core.AssemblyInfo.fs",
+        "fsharpaux.core.2.0.0.nupkg.sha512",
+        "fsharpaux.core.nuspec",
+        "lib/netstandard2.0/FSharpAux.Core.dll",
+        "lib/netstandard2.0/FSharpAux.Core.pdb",
+        "lib/netstandard2.0/FSharpAux.Core.xml"
+      ]
+    },
+    "FSharpAux.IO/2.0.0": {
+      "sha512": "1E/vV4FGaKJyYHg3n8cCi0LjhceP02V/I8MYuxwPhnH4MrbTe79dYGprgRmPybw14MqkMmIIcajaPDW0GAFxjA==",
+      "type": "package",
+      "path": "fsharpaux.io/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fsharpaux.io.2.0.0.nupkg.sha512",
+        "fsharpaux.io.nuspec",
+        "lib/netstandard2.0/FSharpAux.IO.dll",
+        "lib/netstandard2.0/FSharpAux.IO.pdb",
+        "lib/netstandard2.0/FSharpAux.IO.xml"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "sha512": "9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "OptimizedPriorityQueue/5.1.0": {
+      "sha512": "0AnX6kAs0GiLrSqrHKe5mpQhJSHTmXeqLNucV2CxGATP/I9UzLMc1N4MtS/z8qB6mcgX61OjHdY3YbOmETGs+A==",
+      "type": "package",
+      "path": "optimizedpriorityqueue/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/PriorityQueue.dll",
+        "lib/net20/PriorityQueue.pdb",
+        "lib/net20/PriorityQueue.xml",
+        "lib/net35-unity full v3.5/PriorityQueue.dll",
+        "lib/net35-unity full v3.5/PriorityQueue.pdb",
+        "lib/net35-unity full v3.5/PriorityQueue.xml",
+        "lib/net35-unity subset v3.5/PriorityQueue.dll",
+        "lib/net35-unity subset v3.5/PriorityQueue.pdb",
+        "lib/net35-unity subset v3.5/PriorityQueue.xml",
+        "lib/net45/PriorityQueue.dll",
+        "lib/net45/PriorityQueue.pdb",
+        "lib/net45/PriorityQueue.xml",
+        "lib/netstandard1.0/PriorityQueue.dll",
+        "lib/netstandard1.0/PriorityQueue.pdb",
+        "lib/netstandard1.0/PriorityQueue.xml",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/PriorityQueue.dll",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/PriorityQueue.pdb",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/PriorityQueue.xml",
+        "optimizedpriorityqueue.5.1.0.nupkg.sha512",
+        "optimizedpriorityqueue.nuspec"
+      ]
+    },
+    "System.Drawing.Common/8.0.2": {
+      "sha512": "oDedGrYVyzvtGZhgtURpeneHq9D3HQtrvU7q6iCRa+BbIXvTZayGFo0iK3b7qHrwQ/OOAn9B0ghzQH6AbW5LHg==",
+      "type": "package",
+      "path": "system.drawing.common/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.pdb",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.pdb",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/net7.0/System.Drawing.Common.dll",
+        "lib/net7.0/System.Drawing.Common.pdb",
+        "lib/net7.0/System.Drawing.Common.xml",
+        "lib/net8.0/System.Drawing.Common.dll",
+        "lib/net8.0/System.Drawing.Common.pdb",
+        "lib/net8.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.pdb",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.drawing.common.8.0.2.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "FSharp.Core >= 8.0.200",
+      "FSharp.Stats >= 0.5.0",
+      "System.Drawing.Common >= 8.0.2"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ext.shajduk/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ext.shajduk/dev/FDoseTEM/FDoseTEM.fsproj",
+      "projectName": "FDoseTEM",
+      "projectPath": "/Users/ext.shajduk/dev/FDoseTEM/FDoseTEM.fsproj",
+      "packagesPath": "/Users/ext.shajduk/.nuget/packages/",
+      "outputPath": "/Users/ext.shajduk/dev/FDoseTEM/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/ext.shajduk/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/sdk/8.0.200/FSharp/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "FSharp.Core": {
+            "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[8.0.200, )",
+            "generatePathProperty": true
+          },
+          "FSharp.Stats": {
+            "target": "Package",
+            "version": "[0.5.0, )",
+            "generatePathProperty": true
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[8.0.2, )",
+            "generatePathProperty": true
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
